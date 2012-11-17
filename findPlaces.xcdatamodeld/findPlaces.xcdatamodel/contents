@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entity" representedClassName="MyEntity" syncable="YES">
+        <attribute name="additionalText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creatDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="detailInfoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailLocation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="detailName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referenceText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smallImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="160" positionY="192" width="128" height="150"/>
+    </elements>
+</model>

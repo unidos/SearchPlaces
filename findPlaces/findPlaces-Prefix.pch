@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'findPlaces' target in the 'findPlaces' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import <MessageUI/MessageUI.h>
+
+#define numItemsOnTabBar 4
+#define screenWidth [[UIScreen mainScreen]bounds].size.width
+#define screenHeight [[UIScreen mainScreen]bounds].size.height
+#define itemHeight self.tabBar.bounds.size.height
+#define HelpInterfaceOver @"HelpInterfaceOver"
+#define GooglePlacesAPIKey @"AIzaSyDd4pfQlBrHZUDHeluzq3-Qr165lzTK3fc"
+#define BaiduMapAPIKey @"90DAEAB7D86217374E5568732D8FC9E3465BCBCD"
+#define defaultCGRectValue CGRectMake(0, 48, 320, screenHeight-20-49-48)
+#define baseURLStr @"https://maps.googleapis.com/maps/api/place/search/json?"
+#define persistentFileChanged @"persistentFileChanged"
